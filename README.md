@@ -56,3 +56,78 @@ The app shows lottery draw results for:
 ## 🏗️ Architecture
 Uses **MVVM + Service Layer**:
 
+View (SwiftUI)
+↓
+ViewModel (Business Logic)
+↓
+Manager (Coordination)
+↓
+Service Layer (Network/Data)
+
+
+
+- **View** → Handles UI & accessibility  
+- **ViewModel** → State management with `@Observable`  
+- **Manager** → Coordinates multiple services  
+- **Service Layer** → API + Mock implementations  
+- **Models** → Strongly typed data with formatting  
+
+---
+
+## 📦 Requirements
+- iOS **17.0+**  
+- Xcode **15.0+**  
+- Swift **5.9+**  
+- SwiftUI  
+
+---
+
+## 🚀 Installation
+
+```bash
+# Clone repo
+git clone https://github.com/dhiman10/LottoDemoApp.git
+cd LottoDemoApp
+
+# Open in Xcode
+open LottoDemoApp.xcodeproj
+
+
+LottoDemoApp/
+├── Component/
+│   └── Root/LottoDemoAppApp.swift
+├── Views/
+│   ├── AngledRectangle.swift
+│   ├── LotteryCardView.swift
+│   ├── NumberBall.swift
+│   └── LargeWidgetView.swift
+├── Core/
+│   ├── LotteryScreen.swift
+│   └── LotteryViewModel.swift
+├── Extensions/
+│   └── DateFormatter+EXT.swift
+├── Model/
+│   ├── LotteryResponse.swift
+│   └── MockData.swift
+├── Services/
+│   ├── Constants/NetworkConstants.swift
+│   └── Service/
+│       ├── LotteryService.swift
+│       ├── MockLotteryService.swift
+│       ├── NetworkLotteryErrors.swift
+│       ├── NetworkLotteryService.swift
+│       └── LotteryManager.swift
+├── Assets/
+├── LottoDemoAppWidgetExtension/
+├── LottoDemoAppUnitTestsApp/
+│   └── LotteryViewModelTests.swift
+├── LottoDemoAppUITestApp/
+│   └── LotteryScreenUITests.swift
+└── LotteryWidget/
+    ├── Provider/
+    │   ├── LotteryWidgetEntry.swift
+    │   └── LotteryWidgetProvider.swift
+    ├── Root/LotteryWidget.swift
+    └── Utilities/DateFormatter+EXT.swift
+
+
