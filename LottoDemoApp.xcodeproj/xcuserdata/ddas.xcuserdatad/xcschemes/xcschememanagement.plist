@@ -4,10 +4,55 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>LottoDemoApp.xcscheme_^#shared#^_</key>
+		<key>LotteryWidgetExtension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>LottoDemoApp.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>LottoDemoAppWidgetExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6A1B22682E92EDE60057B868</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6A92208C2E92F18A004E84E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6ADB34FA2E8E9EF0005D49C5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6ADB36EC2E9150B2005D49C5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6ADB374D2E91659A005D49C5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6ADB3A3C2E92EC24005D49C5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
